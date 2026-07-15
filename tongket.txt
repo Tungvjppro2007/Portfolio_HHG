@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tổng Kết - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html" class="active">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UEB</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">NHÌN LẠI CHẶNG ĐƯỜNG</div>
+            <h1>Tổng Kết Quá Trình Học Tập & Liên Hệ</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎓</span> Tổng kết giá trị môn học</h2>
+            
+            <p class="mb-4">Trong quá trình làm Portfolio, điều khiến em áp lực nhất lúc đầu là làm sao để liên kết tất cả bài tập thành một sản phẩm thống nhất. Vì mỗi bài có yêu cầu khác nhau nên em khá dễ bị rối, phải chỉnh sửa bố cục nhiều lần để Portfolio nhìn gọn gàng và mạch lạc hơn.</p>
+            
+            <p class="mb-4">Dần dần, em nhận ra đây không chỉ là một bài nộp mà là một quá trình học thật sự. Những việc tưởng nhỏ như quản lý tệp, lưu tài liệu hay ghi nguồn tham khảo lại giúp em hình thành thói quen làm việc có tổ chức và cẩn thận hơn. Em cũng học được cách tìm kiếm thông tin học thuật hiệu quả và biết đánh giá độ tin cậy của nguồn.</p>
+            
+            <p>Phần em thích nhất là sử dụng AI và viết prompt. Em hiểu rằng muốn AI hỗ trợ tốt thì mình phải đặt câu hỏi rõ ràng, có mục tiêu và biết kiểm tra lại kết quả. Kết thúc dự án, em thấy bản thân tiến bộ hơn cả về kỹ năng số lẫn cách học: chủ động hơn, biết tự đánh giá và cải thiện từng bước. Portfolio vì vậy không chỉ là sản phẩm cuối cùng mà còn là dấu mốc ghi lại quá trình em phát triển.</p>
+        </section>
+
+        <section class="card" style="text-align: center; padding: 50px 20px;">
+            <div class="goal-number" style="width: 80px; height: 80px; font-size: 2rem; margin: 0 auto 20px auto;">HHG</div>
+            <h2 style="font-size: 1.8rem; color: var(--text-main); margin-bottom: 10px;">Liên Hệ Với Mình</h2>
+            <p style="color: var(--text-muted); margin-bottom: 30px;">Trường Đại học Kinh tế - Đại học Quốc gia Hà Nội</p>
+            
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                <div style="background-color: var(--bg-color); padding: 15px 40px; border-radius: 30px; width: fit-content; font-weight: 600; color: var(--text-main); display: flex; align-items: center; gap: 10px; border: 1px solid var(--border-color);">
+                    📞 0339240207
+                </div>
+                <div style="background-color: var(--bg-color); padding: 15px 40px; border-radius: 30px; width: fit-content; font-weight: 600; color: var(--text-main); display: flex; align-items: center; gap: 10px; border: 1px solid var(--border-color);">
+                    ✉️ hhg022407@gmail.com
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

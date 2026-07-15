@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html" class="active">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI TẬP 5 - CHƯƠNG 5: SÁNG TẠO NỘI DUNG SỐ</div>
+            <h1>Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎯</span> Mục tiêu bài tập</h2>
+            <p>Thành thạo việc sử dụng các công cụ AI tạo sinh để hỗ trợ quá trình sáng tạo nội dung số.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🤖</span> Quá trình sáng tạo và tích hợp AI</h2>
+            <p class="mb-4">Quá trình này tuân thủ nguyên tắc: <strong>AI làm nền tảng (chiếm &lt;40% giá trị), Con người quyết định chuyên môn và đóng góp sáng tạo (chiếm &gt;60%).</strong></p>
+            
+            <div class="pill-title">Bước 1: Lên cấu trúc nội dung với Gemini</div>
+            <ul class="bullet-list mb-4">
+                <li><strong>Prompt đã sử dụng:</strong> <em>"Đóng vai một nhiếp ảnh gia, hãy lập một dàn ý Infographic ngắn gọn (4 phần) hướng dẫn sinh viên cách thiết lập thông số máy ảnh Mirrorless để chụp ảnh chân dung ngoài trời có xóa phông. Trình bày dưới dạng bullet point."</em></li>
+                <li><strong>Kết quả từ AI:</strong> Gemini đưa ra một dàn ý rất chuẩn về Tam giác phơi sáng (Khẩu độ, Tốc độ, ISO) và cách chọn góc sáng.</li>
+                <li><strong>Chỉnh sửa và Tích hợp cá nhân:</strong>
+                    <ul>
+                        <li><em>Phần AI làm:</em> Cung cấp khung sườn lý thuyết nhiếp ảnh chuẩn xác.</li>
+                        <li><em>Phần tôi tinh chỉnh:</em> Tôi xóa bỏ các lý thuyết quá hàn lâm của AI. Dựa trên kinh nghiệm thực tế dùng dòng máy Fujifilm X-T100, tôi viết bổ sung thêm mục <strong>"Film Simulation Recipe"</strong> mang tên <em>Classic Chrome</em> chuyên dùng chụp ở khu vực sân G3 của trường. Điều này giúp nội dung mang tính thực chiến cao.</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="pill-title">Bước 2: Tạo hình ảnh minh họa trực quan với DALL-E 3</div>
+            <ul class="bullet-list mb-4">
+                <li><strong>Prompt đã sử dụng:</strong> <em>"A flat lay minimalist illustration of a vintage silver mirrorless camera (similar to Fujifilm) with a portrait lens, surrounded by some autumn leaves and a coffee cup, soft lighting, pastel color palette, vector art style."</em></li>
+                <li><strong>Kết quả từ AI:</strong> Tạo ra 4 bức ảnh minh họa phong cách vector rất nghệ thuật và phù hợp với gu thẩm mỹ của sinh viên.</li>
+            </ul>
+        </section>
+        
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📸</span> Minh chứng làm bài</h2>
+            <div class="image-proof text-center">
+                <img src="images/image27.png" alt="Ảnh minh chứng bài 5" style="max-width: 800px; width: 100%;">
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="https://docs.google.com/document/d/1nZ2QA40uqb9I3KOzNzPsfdK04I9S567I/edit" class="reference-link" target="_blank">Link tài liệu đính kèm (Google Docs)</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

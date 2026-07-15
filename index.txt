@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html" class="active">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section class="welcome-card card" style="border-radius: 20px;">
+            <div class="welcome-text">
+                <h3>Xin chào, mình là</h3>
+                <h1>Hạ Hương Giang</h1>
+                <p>Sinh viên ngành Quản trị Kinh doanh tại Đại học Kinh tế (VNU-UEB)</p>
+                <div class="tags">
+                    <span class="tag">● MSV: 25051530</span>
+                    <span class="tag">● Lớp: VNU1001_E252043</span>
+                </div>
+            </div>
+            <img src="images/HHG.jpeg" alt="Avatar" class="avatar">
+        </section>
+
+        <section class="grid-2">
+            <div class="card">
+                <h2 class="card-title"><span class="icon">🌸</span> Thông Tin Sinh Viên</h2>
+                <ul class="info-list">
+                    <li><span class="label">Họ tên:</span> <span class="value">Hạ Hương Giang</span></li>
+                    <li><span class="label">Mã sinh viên:</span> <span class="value">25051530</span></li>
+                    <li><span class="label">Trường:</span> <span class="value">Đại học Kinh tế - ĐHQGHN</span></li>
+                    <li><span class="label">Ngành học:</span> <span class="value">Quản trị Kinh doanh</span></li>
+                    <li><span class="label">Lớp:</span> <span class="value">VNU1001_E252043</span></li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2 class="card-title"><span class="icon">🎯</span> Mục Tiêu Học Tập</h2>
+                <ul class="bullet-list">
+                    <li>Nắm vững những kỹ năng số đã học, biết cách tổ chức công việc và quản lý tài liệu khoa học hơn.</li>
+                    <li>Rèn khả năng tìm kiếm và đánh giá thông tin một cách chính xác, tránh bị nhiễu bởi những nguồn không đáng tin.</li>
+                    <li>Sử dụng AI hiệu quả để tiết kiệm thời gian, học tập thông minh hơn và làm bài tốt hơn mà vẫn đảm bảo đúng tinh thần học thuật.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">✨</span> Mục Tiêu Của Portfolio</h2>
+            <div class="pill-title">Purpose of the portfolio</div>
+            <div class="grid-3">
+                <div class="goal-item">
+                    <div class="goal-number">1</div>
+                    <p>Ghi lại đầy đủ các sản phẩm học tập như hình ảnh, bài viết, prompt, kế hoạch nhóm hay video theo từng bài để thấy rõ sự thay đổi và cải thiện của bản thân qua mỗi bài tập.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">2</div>
+                    <p>Tập thói quen tự đánh giá, rút kinh nghiệm sau mỗi bài để làm tốt hơn ở những lần sau.</p>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">3</div>
+                    <p>Biết cách áp dụng kiến thức vào thực tế, để những kỹ năng này không chỉ dùng cho môn học mà còn hữu ích lâu dài, học cách sử dụng AI một cách hợp lý và có trách nhiệm.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

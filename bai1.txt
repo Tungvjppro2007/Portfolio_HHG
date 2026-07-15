@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html" class="active">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI THỰC HÀNH SỐ 1</div>
+            <h1>Thao Tác Cơ Bản Với Tệp Tin Và Thư Mục</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📝</span> Nội dung hướng dẫn chi tiết (6 Bước thực hiện)</h2>
+            
+            <div class="step-container">
+                <div class="step-sidebar">
+                    <button class="step-btn active" onclick="showStep(1)">Bước 1: Mở File Explorer</button>
+                    <button class="step-btn" onclick="showStep(2)">Bước 2: Truy cập ổ đĩa/thư mục</button>
+                    <button class="step-btn" onclick="showStep(3)">Bước 3: Tạo thư mục mới</button>
+                    <button class="step-btn" onclick="showStep(4)">Bước 4: Tạo tập tin văn bản</button>
+                    <button class="step-btn" onclick="showStep(5)">Bước 5: Sao chép tệp tin</button>
+                    <button class="step-btn" onclick="showStep(6)">Bước 6: Xóa tệp tin</button>
+                </div>
+                
+                <div class="step-content">
+                    <div id="step-1" class="step-panel active">
+                        <h3>1. Mở File Explorer</h3>
+                        <p>Nhấn tổ hợp phím <strong>Windows + E</strong> hoặc nhấp vào biểu tượng thư mục màu vàng trên thanh tác vụ (Taskbar).</p>
+                        <img src="images/image2.png" alt="Minh họa Bước 1" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                    
+                    <div id="step-2" class="step-panel">
+                        <h3>2. Truy cập ổ đĩa/thư mục</h3>
+                        <p>Ở cột bên trái, nhấp vào <strong>This PC</strong>, sau đó nhấp đúp vào một ổ đĩa không phải ổ hệ thống (ví dụ: ổ D: hoặc E:). Nếu chỉ có ổ C:, hãy vào thư mục Documents.</p>
+                        <img src="images/image2.png" alt="Minh họa Bước 2" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                    
+                    <div id="step-3" class="step-panel">
+                        <h3>3. Tạo thư mục mới</h3>
+                        <p>Tại khoảng trống trong ổ đĩa/thư mục, nhấp chuột phải &rarr; chọn <strong>New</strong> &rarr; <strong>Folder</strong>. Đặt tên thư mục là <strong>"Hoc_tap"</strong>.</p>
+                        <img src="images/step3.png" alt="Minh họa Bước 3" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                    
+                    <div id="step-4" class="step-panel">
+                        <h3>4. Tạo tập tin văn bản</h3>
+                        <p>Nhấp đúp để mở thư mục "Hoc_tap". Nhấp chuột phải &rarr; chọn <strong>New</strong> &rarr; <strong>Text Document</strong>. Đặt tên tệp là <strong>"Ghi_chu"</strong>.</p>
+                        <img src="images/step4.png" alt="Minh họa Bước 4" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                    
+                    <div id="step-5" class="step-panel">
+                        <h3>5. Sao chép tệp tin</h3>
+                        <p>Nhấp chuột phải vào tệp "Ghi_chu.txt", chọn <strong>Copy</strong> (hoặc nhấn Ctrl+C). Ra ngoài Desktop, nhấp chuột phải &rarr; <strong>Paste</strong> (hoặc nhấn Ctrl+V).</p>
+                        <img src="images/step5.png" alt="Minh họa Bước 5" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                    
+                    <div id="step-6" class="step-panel">
+                        <h3>6. Xóa tệp tin</h3>
+                        <p>Nhấp chuột phải vào tệp "Ghi_chu.txt" trên Desktop &rarr; chọn <strong>Delete</strong> (hoặc chọn tệp và nhấn phím Delete trên bàn phím).</p>
+                        <img src="images/step6.png" alt="Minh họa Bước 6" style="max-width: 100%; border-radius: 8px; margin-top: 15px; border: 1px solid var(--border-color);">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title" style="justify-content: center;"><span class="icon">📸</span> Minh chứng làm bài</h2>
+            <div class="grid-2 mt-4">
+                <div style="background-color: var(--bg-color); border-radius: 12px; padding: 20px;">
+                    <h3 style="text-align: center; color: var(--text-main); margin-bottom: 20px; font-size: 1rem;">Hình ảnh minh họa bước làm</h3>
+                    <div class="image-proof">
+                        <img src="images/image2.png" alt="Ảnh minh họa bước làm" style="box-shadow: none; border: none; border-radius: 8px;">
+                    </div>
+                </div>
+                
+                <div style="background-color: var(--bg-color); border-radius: 12px; padding: 20px;">
+                    <h3 style="text-align: center; color: var(--text-main); margin-bottom: 20px; font-size: 1rem;">Hình ảnh kết quả cuối cùng</h3>
+                    <div class="image-proof" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+                        <img src="images/image5.png" alt="Kết quả cuối cùng" style="max-width: 100%; border-radius: 8px; border: 1px solid var(--border-color);">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4 pt-4">
+                <a href="https://docs.google.com/document/d/1Bf83r_uS1LzDk4-1m0f_F4Y9mY0tW1L4/edit" class="reference-link" target="_blank">Link tài liệu đính kèm (Google Docs)</a>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function showStep(stepNum) {
+            // Hide all panels
+            document.querySelectorAll('.step-panel').forEach(panel => {
+                panel.classList.remove('active');
+            });
+            // Remove active from all buttons
+            document.querySelectorAll('.step-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected panel
+            document.getElementById('step-' + stepNum).classList.add('active');
+            // Make button active
+            document.querySelectorAll('.step-btn')[stepNum - 1].classList.add('active');
+        }
+    </script>
+</body>
+</html>

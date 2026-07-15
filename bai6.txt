@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html" class="active">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI TẬP 6 - CHƯƠNG 6: AN TOÀN VÀ LIÊM CHÍNH HỌC THUẬT TRONG MÔI TRƯỜNG SỐ</div>
+            <h1>Sử dụng AI có trách nhiệm trong học tập và nghiên cứu</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎯</span> Mục tiêu bài tập</h2>
+            <p>Phát triển kỹ năng sử dụng AI có trách nhiệm và đạo đức trong học tập và nghiên cứu.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📝</span> Quá trình thực hiện & Phân tích</h2>
+            
+            <div class="pill-title">1. Nghiên cứu chính sách của trường đại học</div>
+            <p class="mb-4">=> Em nghiên cứu chính sách của Đại học Quốc gia Hà Nội (VNU) về việc sử dụng AI trong học thuật. Hiện tại VNU chưa có văn bản riêng chỉ dành cho AI, tuy nhiên việc sử dụng AI được đặt trong khung đạo đức học thuật – trung thực trong thi cử và nghiên cứu – phòng chống đạo văn. VNU xem AI là công cụ hỗ trợ, nhưng không được dùng để làm thay tư duy cá nhân hoặc làm sai lệch kết quả đánh giá năng lực của người học.</p>
+            
+            <div class="pill-title">2. Thực hiện nhiệm vụ học tập với sự hỗ trợ của AI</div>
+            <p class="mb-4">=> Em chọn nhiệm vụ viết bài luận về “Sử dụng AI có trách nhiệm trong học tập và nghiên cứu”. Trong quá trình làm bài, em sử dụng AI để: gợi ý dàn ý, gợi ý các ý phân tích về chính sách VNU, liệt kê các vấn đề đạo đức, gợi ý bộ nguyên tắc cá nhân. Em đã ghi lại các prompt và mô tả đầu ra của AI, đồng thời chỉnh sửa – viết lại theo ngôn ngữ cá nhân, bổ sung lập luận và phân tích riêng để bài phản ánh tư duy độc lập. Em cũng trích dẫn việc sử dụng AI một cách minh bạch trong quá trình thực hiện.</p>
+
+            <div class="pill-title">3. Phân tích các vấn đề đạo đức liên quan</div>
+            <ul class="bullet-list mb-4">
+                <li><strong>Ranh giới hỗ trợ và gian lận:</strong> AI chỉ hỗ trợ hợp lý khi dùng để gợi ý, tham khảo, chỉnh diễn đạt; còn dùng AI tạo toàn bộ bài làm và nộp như sản phẩm cá nhân là gian lận học thuật.</li>
+                <li><strong>Quyền sở hữu trí tuệ và trích dẫn:</strong> AI có thể tổng hợp từ nhiều nguồn nên dễ xảy ra đạo văn không chủ ý, vì vậy người học cần kiểm tra nội dung và trích dẫn đầy đủ.</li>
+                <li><strong>Tác động đến học tập:</strong> AI giúp tiết kiệm thời gian, nhưng nếu lạm dụng sẽ làm giảm tư duy phản biện và kỹ năng viết – giải quyết vấn đề độc lập.</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🛡️</span> Kết quả: Bộ 6 nguyên tắc cá nhân</h2>
+            <div class="grid-2">
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">1. AI chỉ là công cụ hỗ trợ</h3>
+                    <p>Em chỉ dùng AI để gợi ý, tham khảo hoặc hỗ trợ diễn đạt, còn nội dung chính vẫn phải do em tự hiểu và tự làm.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">2. Luôn minh bạch khi sử dụng</h3>
+                    <p>Nếu bài làm có sự hỗ trợ từ AI, em sẽ ghi rõ mình đã dùng AI ở phần nào và dùng để làm gì.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">3. Chỉ sử dụng trong phạm vi cho phép</h3>
+                    <p>Tuân thủ các quy định/định hướng của nhà trường và giảng viên, không dùng AI trong những phần bị cấm.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">4. Chịu trách nhiệm hoàn toàn</h3>
+                    <p>Dù AI có hỗ trợ, em vẫn là người chịu trách nhiệm về độ chính xác và chất lượng của bài làm.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">5. Kiểm tra và cá nhân hóa</h3>
+                    <p>Kiểm chứng, chỉnh sửa lại theo cách hiểu của mình và bổ sung lập luận để bài có tính cá nhân. Tôn trọng quyền sở hữu trí tuệ.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 5px;">6. Không lạm dụng để tránh phụ thuộc</h3>
+                    <p>Duy trì khả năng tự học, tư duy phản biện và rèn kỹ năng viết, phân tích độc lập.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📸</span> Minh chứng làm bài</h2>
+            <div class="image-proof text-center">
+                <img src="images/image6.png" alt="Minh chứng bài 6 - Ảnh 1" style="max-width: 800px; width: 100%; margin-bottom: 20px;">
+                <img src="images/image16.png" alt="Minh chứng bài 6 - Ảnh 2" style="max-width: 800px; width: 100%;">
+            </div>
+        </section>
+    </main>
+</body>
+</html>

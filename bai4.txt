@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html" class="active">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI TẬP 4 - CHƯƠNG 4: GIAO TIẾP VÀ HỢP TÁC TRONG MÔI TRƯỜNG SỐ</div>
+            <h1>Sử dụng công cụ hợp tác trực tuyến trong dự án nhóm</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎯</span> Mục tiêu bài tập</h2>
+            <p>Thành thạo các công cụ hợp tác trực tuyến để quản lý dự án nhóm hiệu quả.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📊</span> I. Bối cảnh dự án & Thiết lập công cụ</h2>
+            
+            <p class="mb-4">Báo cáo này minh chứng cho quá trình hoạt động cá nhân của tôi trong <strong>Dự án Sản xuất chuỗi nội dung truyền thông hỗ trợ kỳ thi HSA 2026</strong> (thuộc Ban Truyền thông Đội hỗ trợ Sinh viên SGUET). Vai trò chính của tôi trong dự án là xây dựng kịch bản, quản lý file phương tiện (hình ảnh/video) và điều phối công việc với các thành viên khác.</p>
+
+            <div class="pill-title">Lựa chọn công cụ phù hợp với 4 nhóm tác vụ</div>
+            <div class="grid-2 mb-4">
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 10px;">Quản lý dự án: Trello</h3>
+                    <p>Sử dụng bảng Kanban để theo dõi tiến độ. <em>Tối ưu hóa:</em> Thiết lập hệ thống Nhãn (Label) đa sắc để phân loại task (Đỏ: Khẩn cấp/Sửa lỗi, Xanh: Kịch bản, Vàng: Hậu kỳ) và tích hợp tự động hóa (Trello Butler) để tự động chuyển thẻ sang cột "Done".</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 10px;">Soạn thảo cộng tác: Google Docs</h3>
+                    <p>Nơi đội ngũ cùng viết, chỉnh sửa và duyệt kịch bản video truyền thông một cách đồng bộ.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 10px;">Lưu trữ tài nguyên: Google Drive</h3>
+                    <p>Nơi lưu trữ toàn bộ source quay gốc từ máy ảnh, các file thiết kế đồ họa và tài liệu liên quan.</p>
+                </div>
+                <div class="goal-item" style="text-align: left;">
+                    <h3 style="color: var(--primary-color); margin-bottom: 10px;">Giao tiếp tức thời: Discord</h3>
+                    <p>Tạo máy chủ riêng với các kênh trò chuyện chuyên biệt để phân luồng thảo luận: #general, #script-review, #media-assets.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📈</span> II. Nhật ký thực hiện nhiệm vụ cá nhân</h2>
+            <p class="mb-4">Trong tuần cao điểm của dự án (từ ngày 20/04 đến 26/04/2026), tôi đã thực hiện nghiêm ngặt các nghiệp vụ quản lý trực tuyến sau:</p>
+            
+            <div class="grid-2">
+                <div>
+                    <div class="pill-title">1. Quản lý tác vụ & tương tác</div>
+                    <ul class="bullet-list">
+                        <li><strong>Tự quản lý danh sách nhiệm vụ:</strong> 100% công việc phụ trách trên Trello đều được mô tả chi tiết, đính kèm checklist và cài đặt hạn chót (Deadline) rõ ràng. Cập nhật tiến độ ít nhất <strong>1 lần/ngày</strong>.</li>
+                        <li><strong>Chủ động hỗ trợ nhóm:</strong> Đạt hơn <strong>15 lượt tương tác</strong> trong tuần trên Discord và Google Docs, bao gồm phản hồi kịch bản, hướng dẫn đồng bộ âm thanh video.</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="pill-title">2. Quản lý tài nguyên & Tệp tin</div>
+                    <ul class="bullet-list">
+                        <li><strong>Hệ thống thư mục đa cấp:</strong> <code>SGUET_Media &rarr; HSA_Campaign_2026</code> chia làm 3 thư mục con logic: <code>01_Scripts</code>, <code>02_RawMaterials</code>, <code>03_FinalExports</code>.</li>
+                        <li><strong>Quy chuẩn đặt tên tệp:</strong> 100% tệp tin tải lên tuân thủ nguyên tắc: <code>[Ngày tháng]_[Tên tác vụ]_[Người phụ trách]_[Phiên bản]</code> (Ví dụ: <code>260426_KichBanVideo_LinhTT_v2.docx</code>).</li>
+                        <li><strong>Phân quyền truy cập an toàn:</strong> Cấp quyền Editor cho thư mục Kịch bản chung; thư mục tài nguyên gốc chỉ cấp quyền Viewer.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">💡</span> III. Phân tích trải nghiệm: Thách thức & Giải pháp</h2>
+            <p class="mb-4">Dưới đây là phân tích về 3 thách thức lớn nhất em gặp phải và cách em đã tự giải quyết:</p>
+
+            <div class="pill-title">Thách thức 1: Xung đột phiên bản soạn thảo</div>
+            <p><strong>Phân tích:</strong> Khi cả 3 thành viên cùng truy cập vào Google Docs để chỉnh sửa kịch bản, tình trạng "đè chữ" lên nhau đã xảy ra, vô tình xóa mất phân cảnh quan trọng.</p>
+            <p class="mb-4"><strong>Giải pháp:</strong> Đề xuất và thiết lập nguyên tắc: Toàn bộ thành viên chuyển sang chế độ <strong>"Suggesting" (Đề xuất chỉnh sửa)</strong> thay vì "Editing". Mọi thay đổi đều trở thành bình luận và phải được nhóm trưởng ấn "Accept" thì mới được áp dụng.</p>
+
+            <div class="pill-title">Thách thức 2: Trôi nổi thông tin (Information Overload)</div>
+            <p><strong>Phân tích:</strong> Nhóm sử dụng nền tảng chat để trao đổi cả công việc lẫn chuyện phiếm. Các đường link Google Drive bị trôi đi rất nhanh sau vài chục tin nhắn.</p>
+            <p class="mb-4"><strong>Giải pháp:</strong> Tạo kênh #announcement riêng biệt trên Discord chỉ dành cho leader gửi tin. Ghim (Pin) các link tài nguyên quan trọng. Thiết lập Webhook tự động đẩy tin nhắn cảnh báo khi có thẻ Trello bị quá hạn.</p>
+
+            <div class="pill-title">Thách thức 3: Dung lượng lưu trữ & Tốc độ đồng bộ</div>
+            <p><strong>Phân tích:</strong> Quản lý các file video gốc 4K tốn hàng chục Gigabyte, đẩy toàn bộ lên Google Drive miễn phí (15GB) gây đầy bộ nhớ và tải xuống rất lâu.</p>
+            <p class="mb-4"><strong>Giải pháp:</strong> Áp dụng lưu trữ phân tầng. Tài liệu (Docs) và hình ảnh proxy tải lên Google Drive. Video Raw dùng ổ cứng ngoài (HDD) để chép tay cho Editor, chỉ upload file Final đã nén lên Drive.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🔗</span> Phụ lục: Bảng Công Cụ Đã Dùng</h2>
+            <table>
+                <tr>
+                    <th>Loại công cụ</th>
+                    <th>Công cụ</th>
+                    <th>Ưu điểm</th>
+                    <th>Nhược điểm</th>
+                </tr>
+                <tr>
+                    <td>Quản lý dự án</td>
+                    <td><strong>Trello</strong></td>
+                    <td>Quản lý tiến độ trực quan, dễ theo dõi; phù hợp cho dự án ngắn hạn.</td>
+                    <td>Phụ thuộc kết nối mạng; cần cập nhật thường xuyên để tránh sai lệch.</td>
+                </tr>
+                <tr>
+                    <td>Soạn thảo cộng tác</td>
+                    <td><strong>Google Docs</strong></td>
+                    <td>Hỗ trợ nhiều người chỉnh sửa cùng lúc, tự động lưu, có chức năng bình luận.</td>
+                    <td>Khó kiểm soát nội dung khi chỉnh sửa đồng thời.</td>
+                </tr>
+                <tr>
+                    <td>Lưu trữ và chia sẻ tệp</td>
+                    <td><strong>Google Drive</strong></td>
+                    <td>Lưu trữ tiện lợi, dễ chia sẻ và truy cập trên nhiều thiết bị.</td>
+                    <td>Dung lượng hạn chế với tài khoản miễn phí.</td>
+                </tr>
+            </table>
+
+            <div class="text-center mt-4">
+                <a href="https://docs.google.com/document/d/1HfYH_nAUUOgGOElcXpkiv_FNY9UMuDpb/edit" class="reference-link" target="_blank">Link tài liệu đính kèm (Google Docs)</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

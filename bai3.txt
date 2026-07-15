@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html" class="active">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI TẬP 3 - CHƯƠNG 3: TỔNG QUAN VỀ TRÍ TUỆ NHÂN TẠO</div>
+            <h1>Viết prompt hiệu quả cho các tác vụ học tập</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎯</span> Mục tiêu bài tập</h2>
+            <p>Phát triển kỹ năng tìm kiếm và đánh giá thông tin học thuật từ các nguồn đáng tin cậy.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📝</span> Quá trình thực hiện</h2>
+            
+            <div class="pill-title">1. Chọn 3 tác vụ học tập phổ biến</div>
+            <ul class="bullet-list mb-4">
+                <li>Tóm tắt bài học ngữ pháp tiếng Anh: Thì hiện tại hoàn thành</li>
+                <li>Giải thích khái niệm phức tạp: Ẩn dụ trong ngôn ngữ học</li>
+                <li>Tạo câu hỏi ôn tập: Chủ đề “Từ loại tiếng Việt”</li>
+            </ul>
+
+            <div class="pill-title">2. Phân tích 3 cấp độ Prompt</div>
+            <div style="overflow-x:auto;" class="mb-4">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Mức độ</th>
+                            <th>Đặc điểm</th>
+                            <th>Tác vụ 1</th>
+                            <th>Tác vụ 2</th>
+                            <th>Tác vụ 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Cơ bản</strong></td>
+                            <td>Ngắn gọn, chưa có hướng dẫn chi tiết.</td>
+                            <td>"Tóm tắt nội dung về thì hiện tại hoàn thành."</td>
+                            <td>"Giải thích khái niệm ẩn dụ trong ngôn ngữ học."</td>
+                            <td>"Tạo một số câu hỏi ôn tập về từ loại tiếng Việt."</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cải tiến</strong></td>
+                            <td>Có thêm yêu cầu cụ thể về hình thức và độ dài.</td>
+                            <td>"Hãy tóm tắt bài học về thì hiện tại hoàn thành trong tiếng Anh thành 3 gạch đầu dòng, tập trung vào cấu trúc và cách sử dụng."</td>
+                            <td>"Giải thích khái niệm ẩn dụ trong ngôn ngữ học bằng ngôn ngữ dễ hiểu, kèm 1 ví dụ minh họa."</td>
+                            <td>"Hãy tạo 5 câu hỏi trắc nghiệm về các từ loại trong tiếng Việt (danh từ, động từ, tính từ), kèm đáp án."</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nâng cao</strong></td>
+                            <td>Áp dụng kỹ thuật role prompting và few-shot example.</td>
+                            <td>"Đóng vai giáo viên tiếng Anh, hãy tóm tắt bài học về thì hiện tại hoàn thành cho học sinh lớp 10. Viết ngắn gọn 3 ý chính và 1 ví dụ minh họa."</td>
+                            <td>"Đóng vai giảng viên ngôn ngữ học, hãy giải thích khái niệm ẩn dụ một cách sinh động, có ví dụ từ văn học Việt Nam và tiếng Anh để so sánh."</td>
+                            <td>"Đóng vai giáo viên tiếng Việt, hãy tạo 5 câu hỏi trắc nghiệm và 2 câu hỏi tự luận về từ loại, chia theo độ khó (dễ - trung bình - khó), kèm đáp án."</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="pill-title">3. Đánh giá kết quả thử nghiệm</div>
+            <ul class="bullet-list mb-4">
+                <li><strong>Prompt cơ bản:</strong> Nội dung thường đúng nhưng dễ dài, đôi khi lan man vì thiếu giới hạn và cấu trúc.</li>
+                <li><strong>Prompt cải tiến:</strong> Kết quả gọn gàng hơn, đúng trọng tâm, dễ ghi chú học tập.</li>
+                <li><strong>Prompt nâng cao:</strong> Hiệu quả nhất vì có vai trò + yêu cầu cụ thể, nội dung sinh động, phù hợp mục tiêu học tập/giảng dạy.</li>
+            </ul>
+
+            <div class="pill-title">4. Tổng hợp mẹo viết Prompt hiệu quả</div>
+            <ul class="bullet-list">
+                <li>Rõ ràng - cụ thể - có mục tiêu</li>
+                <li>Thêm ngữ cảnh và vai trò (Role prompting)</li>
+                <li>Giới hạn đầu ra (số câu, số ý, dạng gạch đầu dòng...)</li>
+                <li>Cho ví dụ mẫu hoặc hướng dẫn (few-shot prompting)</li>
+                <li>Thử nghiệm - đánh giá - điều chỉnh</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📸</span> Minh chứng hội thoại thực tế</h2>
+            <div class="image-proof">
+                <p><strong>Tác vụ 1:</strong></p>
+                <div class="grid-2 mb-4">
+                    <img src="images/image21.png" alt="Tác vụ 1">
+                    <img src="images/image7.png" alt="Tác vụ 1">
+                </div>
+                
+                <p><strong>Tác vụ 2:</strong></p>
+                <div class="grid-2 mb-4">
+                    <img src="images/image20.png" alt="Tác vụ 2">
+                    <img src="images/image13.png" alt="Tác vụ 2">
+                </div>
+                
+                <p><strong>Tác vụ 3:</strong></p>
+                <div class="grid-2 mb-4">
+                    <img src="images/image22.png" alt="Tác vụ 3">
+                    <img src="images/image28.png" alt="Tác vụ 3">
+                </div>
+
+                <p><strong>Nguyên tắc và mẹo viết prompt:</strong></p>
+                <div class="text-center">
+                    <img src="images/image31.png" alt="Mẹo viết prompt" style="max-width: 800px; width: 100%;">
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="https://drive.google.com/drive/u/0/folders/1WEnG0FkQuu3_PZ7j5Q6NV_Raq5Ecbajr" class="reference-link" target="_blank">Link tài liệu đính kèm (Google Drive)</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

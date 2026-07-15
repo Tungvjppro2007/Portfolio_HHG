@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2 - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="logo-icon">H</div>
+            <div>
+                <h2>Hạ Hương Giang</h2>
+                <p>MSV: 25051530</p>
+            </div>
+        </div>
+        <nav class="sidebar-nav">
+            <ul>
+                <li><a href="index.html">🏠 Trang Chủ</a></li>
+                <li><a href="bai1.html">📁 Bài 1: Quản Lý Tệp Tin</a></li>
+                <li><a href="bai2.html" class="active">💾 Bài 2: Khai thác dữ liệu</a></li>
+                <li><a href="bai3.html">💡 Bài 3: Tổng quan AI</a></li>
+                <li><a href="bai4.html">👥 Bài 4: Hợp Tác Trực Tuyến</a></li>
+                <li><a href="bai5.html">🎨 Bài 5: Sáng Tạo Nội Dung AI</a></li>
+                <li><a href="bai6.html">⚖️ Bài 6: AI Có Trách Nhiệm</a></li>
+                <li><a href="tongket.html">✨ Tổng Kết & Liên Hệ</a></li>
+            </ul>
+        </nav>
+        <div class="sidebar-footer">
+            <p>&copy; 2026 Hạ Hương Giang</p>
+            <p>VNU - UET</p>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <header class="page-header">
+            <div class="subtitle">BÀI TẬP 2 - CHƯƠNG 2: KHAI THÁC DỮ LIỆU VÀ THÔNG TIN</div>
+            <h1>Tìm kiếm và đánh giá thông tin học thuật</h1>
+        </header>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">🎯</span> Mục tiêu bài tập</h2>
+            <p>Phát triển kỹ năng tìm kiếm và đánh giá thông tin học thuật từ các nguồn đáng tin cậy.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📝</span> Quá trình thực hiện</h2>
+            
+            <div class="pill-title">1. Chọn một chủ đề liên quan đến ngành học</div>
+            <p class="mb-4">=> Em chọn chủ đề <strong>“Án lệ Việt Nam – vai trò và thực tiễn áp dụng trong hệ thống pháp luật”</strong> vì án lệ được thừa nhận từ năm 2016 và đang có ảnh hưởng ngày càng rõ trong hoạt động xét xử tại Việt Nam.</p>
+
+            <div class="pill-title">2. Thực hiện tìm kiếm thông tin từ các nguồn</div>
+            <ul class="bullet-list mb-4">
+                <li>Cơ sở dữ liệu học thuật (Google Scholar, Microsoft Academic, CSDL của thư viện trường)</li>
+                <li>Tạp chí khoa học chuyên ngành</li>
+                <li>Sách chuyên khảo</li>
+                <li>Các nguồn mở trên internet</li>
+            </ul>
+            <p class="mb-4">=> Em tìm tài liệu từ 4 nhóm nguồn bắt buộc gồm: cơ sở dữ liệu học thuật (Google Scholar), tạp chí chuyên ngành, sách chuyên khảo và nguồn mở trên Internet. Ngoài ra, em bổ sung thêm cổng thông tin chính thức của TANDTC và các báo cáo chính sách/nhà nước để tăng tính thực tiễn.</p>
+
+            <div class="pill-title">3. Thu thập tài liệu tham khảo</div>
+            <p class="mb-4">Em thu thập 10 nguồn tài liệu về án lệ Việt Nam trong giai đoạn 2015–2025, bao gồm bài báo khoa học, sách chuyên khảo, báo cáo và nguồn mở chính thống; trong đó có các bài nghiên cứu học thuật tiêu biểu như Nguyễn Văn Cường (2018), Trần Thị Hiền (2020), Lê Mai Anh (2021).</p>
+
+            <div class="pill-title">4. Đánh giá độ tin cậy</div>
+            <p class="mb-4">=> Khi tìm trên Google Scholar, em ưu tiên các bài có chỉ số trích dẫn cao và xuất bản trên tạp chí có phản biện.</p>
+
+            <div class="pill-title">5. Tạo bảng tổng hợp các nguồn thông tin</div>
+            <p>Em lập bảng tổng hợp 10 nguồn theo các trường thông tin: tác giả/cơ quan, năm, loại nguồn, tiêu chí nổi bật và mức độ tin cậy (1–5) để dễ so sánh và lựa chọn nguồn phù hợp cho nghiên cứu.</p>
+        </section>
+
+        <section class="card">
+            <h2 class="card-title"><span class="icon">📸</span> Minh chứng làm bài</h2>
+            <div class="image-proof text-center">
+                <img src="images/image3.png" alt="Ảnh minh chứng Bài 2" style="max-width: 800px; width: 100%;">
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="https://docs.google.com/document/d/1tiTXwOH4KzpAvRCQtRVxYMuwYe-ZW-9g/edit" class="reference-link" target="_blank">Link tài liệu đính kèm (Google Docs)</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
